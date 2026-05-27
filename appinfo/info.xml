@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>songbook</id>
+	<name>Songbook</name>
+	<summary>A digital music binder for Nextcloud. View, edit, and compile chord sheets using the official ChordPro engine.</summary>
+	<description><![CDATA[# Songbook
+
+A digital music binder for Nextcloud. View, edit, and compile chord sheets using the official ChordPro engine.
+
+## Description
+
+**Songbook** transforms your Nextcloud instance into a professional sheet music workstation for musicians, band leaders, choir directors, and worship teams. By integrating the official reference implementation of ChordPro, Songbook allows you to securely organize, transpose, and compile clean lead sheets entirely within your private cloud.
+
+Forget treating your cloud as a blind storage box—Songbook brings your chord charts to life with seamless, automation-driven workflows.
+
+### 🌟 Key Features
+
+* **One-Click PDF Compilation:** Instantly generate clean, beautifully formatted, print-ready PDFs directly from your Nextcloud Files app context menu.
+* **Official ChordPro Engine:** Powered by the reference ChordPro backend, ensuring perfect syntax rendering, custom chord diagrams, and standard formatting conventions.
+
+### 🛠️ How it Works
+
+1. **Upload or Create:** Keep your `.cho`, `.crd`, `.chopro`, `.chordpro`, or `.pro` files inside your regular Nextcloud directories.
+2. **Right-Click to Render:** Use the native "Compile to PDF" file action to generate your lead sheet in seconds.]]></description>
+	<version>1.0.0</version>
+	<licence>AGPL-3.0-or-later</licence>
+	<author mail="9motom6@gmail.com" homepage="">Tomáš Horáček</author>
+	<namespace>Songbook</namespace>
+	<category>files</category>
+	<category>multimedia</category>
+	<bugs>http://test.com/</bugs>
+	<dependencies>
+		<nextcloud min-version="31" max-version="32"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>songbook</id>
+			<name>Songbook</name>
+			<route>songbook.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
