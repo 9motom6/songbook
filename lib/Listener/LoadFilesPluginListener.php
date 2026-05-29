@@ -19,5 +19,6 @@ class LoadFilesPluginListener implements IEventListener {
 			return;
 		}
 		Util::addScript('songbook', 'songbook-files-action');
+		Util::addInitScript('songbook', 'songbook-editor');
 	}
 }
