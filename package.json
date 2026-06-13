@@ -22,7 +22,7 @@
     "@nextcloud/router": "^3.1.0",
     "@nextcloud/viewer": "^1.0.0",
     "@nextcloud/vue": "^9.3.1",
-    "vue": "^3.5.25"
+    "vue": "^3.5.38"
   },
   "devDependencies": {
     "@nextcloud/browserslist-config": "^3.1.2",
